@@ -1,0 +1,16 @@
+body{
+    
+}
+script{
+    align-content: center;
+}
+h2{
+    padding-bottom: 50;
+    position: sticky;
+}
+.link{
+    border: 3px solid;
+    border-color: red;
+    border-radius: 10px;
+    display: block
+}
