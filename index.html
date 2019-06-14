@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Rainbow Square</title>
+</head>
+
+<body>
+    <canvas id="canvas" width='1000' height='1000'></canvas>
+    
+    <script>
+          var square=function(){
+              var colors=['Red,','Orange','Yellow','Green','Blue','Purple'];
+              var color=[math.floor(math.random()*6)];
+              var canvas=document.getElementById("canvas");
+              var ctx=canvas.getContext('2d');
+              ctx.fillstyle=colors[color]
+              ctx.fillRect(0,0,500,500)
+              
+              };
+          setInterval(square,100)
+    <script>
+
+<body>
+
+<html>
